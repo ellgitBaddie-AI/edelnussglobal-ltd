@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Edelnuss Global Ltd dries, cracks, sorts, packs, and exports premium Kenyan macadamia kernels to international markets.">
+  <title>Edelnuss Global Ltd | Premium Kenyan Macadamia</title>
+  <script>
+    // The root URL opens the welcome screen; ?site=1 shows this main website page.
+    if (new URLSearchParams(window.location.search).get('site') !== '1') {
+      window.location.replace('welcome.html');
+    }
+  </script>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Shared site header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html?site=1">
+        <img class="logo-mark" src="images/logo.png" alt="Edelnuss Global Ltd">
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html?site=1" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <p class="hero-badge">Meru, Kenya</p>
+        <h1>Edelnuss Global Ltd</h1>
+        <p class="tagline">Premium Kenyan macadamia kernels — dried, cracked, sorted, packed, and exported to international markets.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="services.html">Services</a>
+          <a class="btn btn--secondary" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- What we do -->
+    <section class="section">
+      <div class="container">
+        <hr class="gold-rule">
+        <h2 class="section-title">What we do</h2>
+        <p class="section-lead">
+          Edelnuss Global Ltd is a Kenyan agribusiness focused on turning quality macadamia into
+          export-ready kernels. We manage the full processing chain so buyers receive product that
+          is consistent, carefully graded, and packed to international standards.
+        </p>
+        <div class="grid-2">
+          <article class="card">
+            <h3>From nut to kernel</h3>
+            <p>
+              We dry, crack, sort, and pack macadamia with controlled moisture management and
+              precision grading. Every stage is set up to protect flavour, texture, and shelf life.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Built for export</h3>
+            <p>
+              Our packing and logistics are designed for overseas buyers. We prepare kernels for
+              global delivery from Meru, Kenya — ready for the markets you serve.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="section section--alt">
+      <div class="container">
+        <hr class="gold-rule">
+        <h2 class="section-title">Why Edelnuss</h2>
+        <p class="section-lead">Three commitments that shape how we process and ship every batch.</p>
+        <div class="grid-3">
+          <article class="card">
+            <div class="icon-circle" aria-hidden="true">Q</div>
+            <h3>Quality</h3>
+            <p>Careful drying, cracking, and sorting so kernels meet the standard international buyers expect.</p>
+          </article>
+          <article class="card">
+            <div class="icon-circle" aria-hidden="true">C</div>
+            <h3>Consistency</h3>
+            <p>Repeatable processes and precision grading so each shipment matches the last.</p>
+          </article>
+          <article class="card">
+            <div class="icon-circle" aria-hidden="true">E</div>
+            <h3>Export Ready</h3>
+            <p>Export-standard packaging and logistics support from Kenya to your market.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <strong>Edelnuss Global Ltd</strong>
+          <p>Premium macadamia processing &amp; export · Meru, Kenya</p>
+        </div>
+        <div class="footer-meta">
+          <a href="mailto:info@edelnuss.com">info@edelnuss.com</a>
+          <a href="tel:+254720273652">0720 273 652</a>
+          <a href="contact.html">Get in touch</a>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2026 Edelnuss Global Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
